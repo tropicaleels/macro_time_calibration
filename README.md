@@ -1,0 +1,3 @@
+# Macroevolutionary time calibration
+
+Phylogenomics analyses to estimate the divergence time between Anguilla and Conger. The dataset for these analyses is taken from Parey et al. (2023). Alignments are filtered by completeness, entropy, GC-content, and clock-like evolution. Third codon positions are removed. The timeline of elopomorph divergences is estimated with BEAST2 on the basis of Musilova et al. (2019; https://evoinformatics.group/repos/opsin_evolution/101g_nucl_conc_28bfossils.combined.tre).
