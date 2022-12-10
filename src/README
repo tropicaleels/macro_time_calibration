@@ -1,0 +1,21 @@
+# m_matschiner Fri Nov 25 00:49:42 CET 2022
+
+Script were executed in this order:
+
+get_alignments.sh
+count_stop_codons.sh
+convert_to_fasta.sh
+filter_sites_with_BMGE.sh
+rename_fasta_ids.sh
+filter_alignments_by_GC_content_variation.sh
+run_beast_per_alignment.sh
+make_mcc_trees_per_alignment.sh
+get_alignment_stats.sh
+select_alignments.sh
+split_by_codon_position.sh
+concatenate.sh
+
+# Prepare input files for beast manually, naming it parey_et_al_red.xml and placing it in ../res/beast/xmls.
+
+run_beast.sh
+combine_beast_analyses.sh
