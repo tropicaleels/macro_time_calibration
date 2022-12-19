@@ -17,8 +17,8 @@ ls ../res/beast/reps/r??/*.log > ../res/beast/combined/logs.txt
 ls ../res/beast/reps/r??/*.trees > ../res/beast/combined/trees.txt
 
 # Combine all replicate log and trees files into a single one.
-python3 logcombiner.py -n 2000 -b 20 ../res/beast/combined/logs.txt ../res/beast/combined/parey_et_al.log
-python3 logcombiner.py -n 2000 -b 20 ../res/beast/combined/trees.txt ../res/beast/combined/parey_et_al.trees
+python3 logcombiner.py -n 2000 -b 40 ../res/beast/combined/logs.txt ../res/beast/combined/parey_et_al.log
+python3 logcombiner.py -n 2000 -b 40 ../res/beast/combined/trees.txt ../res/beast/combined/parey_et_al.trees
 
 # Make maximum-clade-credibility consensensus tre.
 treeannotator -b 0 -heights mean ../res/beast/combined/parey_et_al.trees ../res/beast/combined/parey_et_al.tre
